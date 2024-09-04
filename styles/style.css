@@ -57,8 +57,10 @@
   font-size: 18px;
   line-height: 24.3px;
   text-underline-offset: 4px;  
+  
 }
-div.header__adress .adress{
+
+div.header__adress .adress {
   white-space: pre-wrap;
 }
 .cover {
@@ -307,10 +309,6 @@ div.header__adress .adress{
   white-space: pre-line;
 }
 
-.footer__menu-link {
-  white-space: nowrap;
-}
-
 .footer__menu-list {
   display: flex;
   flex-direction: column;
@@ -328,6 +326,7 @@ div.header__adress .adress{
   font-weight: 400;
   font-size: 18px;
   line-height: 24.13px;
+  white-space: nowrap;
 }
 
 .footer__social-list {
